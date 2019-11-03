@@ -10,11 +10,15 @@ module.exports = {
         repoLabel: 'My GitHub',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'FirstBlog', link: '/blog/FirstBlog.md' }
+            { text: 'FirstBlog', link: '/blog/FirstBlog.md' },
+            { text: 'sc',link:'/blog/sc.md'},
+            { text: 'tr',link:'/blog/tr.md'}
         ],
         sidebar: [
           ['/', '首页'],
-          ['/blog/FirstBlog.md', '我的第一篇博客']
+          ['/blog/FirstBlog.md', '我的第一篇博客'],
+          ['/blog/sc.md','我的第二篇博客'],
+          ['/blog/tr.md','我的第三篇博客']
         ],
         title: 'group1',
         collapsable: false,
